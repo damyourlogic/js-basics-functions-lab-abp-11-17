@@ -1,9 +1,9 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickup){
-return Math.abs(pickup - 42);
+  return Math.abs(pickup - 42);
 }
 
-function distanceFromHqInFeet(){
-  distanceFromHqInBlocks();
+function distanceFromHqInFeet(pickup){
+  distanceFromHqInBlocks(pickup);
 
 }
